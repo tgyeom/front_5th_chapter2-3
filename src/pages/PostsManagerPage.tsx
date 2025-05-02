@@ -55,7 +55,6 @@ const PostsManager = () => {
   const [showUserModal, setShowUserModal] = useState(false)
   const [selectedUser, setSelectedUser] = useState(null)
 
-  // URL 업데이트 함수
   const updateURL = () => {
     const params = new URLSearchParams()
     if (skip) params.set("skip", skip.toString())
